@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
 direction BT
 class Main {
@@ -5,4 +6,4 @@ class Main {
   + String HELLO
   + main(String[]) void
 }
-
+```
