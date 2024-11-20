@@ -14,12 +14,14 @@ public class Main {
             publisher.addObserver(subscriber2);
 
             publisher.notifyObservers(message);
+            publisher.notifyObservers(message2);
 
             publisher.removeObserver(subscriber2);
 
             MessageSubscriber3 subscriber3 = new MessageSubscriber3();
 
             publisher.addObserver(subscriber3);
+            publisher.notifyObservers(message3);
 
             publisher.notifyObservers(message);
         }
