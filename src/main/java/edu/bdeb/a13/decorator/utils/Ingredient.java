@@ -1,4 +1,4 @@
-package edu.bdeb.a13.decorator;
+package edu.bdeb.a13.decorator.utils;
 
 // decorator
 public abstract class Ingredient implements Plat {
